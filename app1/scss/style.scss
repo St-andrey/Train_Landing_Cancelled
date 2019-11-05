@@ -1,0 +1,27 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+body{
+    font-size: $fz;
+    color: $white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.section-header{
+    font-size: $section-header;
+}
+
+
+
+
+@import "media";
